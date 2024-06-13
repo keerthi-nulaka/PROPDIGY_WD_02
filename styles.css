@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100vh;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/029/219/837/non_2x/stopwatch-seamless-pattern-on-a-blue-background-timer-icon-theme-illustration-vector.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.stopwatch {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* White transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#pause {
+    background-color: #f44336;
+    color: white;
+}
+
+#reset {
+    background-color: #008CBA;
+    color: white;
+}
+
+#lap {
+    background-color: #ff9800;
+    color: white;
+}
+
+#laps {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+#laps li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
